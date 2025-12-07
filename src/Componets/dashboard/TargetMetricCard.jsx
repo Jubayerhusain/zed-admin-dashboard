@@ -8,7 +8,6 @@ const TargetMetricCard = ({
   target,
   value,
   percentage,
-  // icon prop-কে রিসিভ করে এটিকে Icon হিসেবে নাম দেওয়া হলো
   icon: Icon, 
   colorClass,
   barColorClass,
@@ -24,7 +23,6 @@ const TargetMetricCard = ({
     >
       <div className="flex justify-between items-center mb-4">
         <div className="flex items-center space-x-2 text-gray-800">
-          {/* এখানে Icon কম্পোনেন্টটি রেন্ডার করা হলো */}
           <Icon size={20} className="text-gray-600" />
           <span className="font-semibold text-lg">{title}</span>
         </div>

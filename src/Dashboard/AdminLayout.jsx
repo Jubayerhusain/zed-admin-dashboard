@@ -150,7 +150,7 @@ const AdminLayout = () => {
               isDrawerOpen={isDrawerOpen}
             >
               <Link
-                to={"/admin"}
+                to={"/"}
                 className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
               >
                 Dashboard

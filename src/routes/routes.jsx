@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import AdminLayout from "../Dashboard/AdminLayout";
 import Dashboard from "../Pages/Dashboard";
+import Analytics from "../Pages/Analytics";
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Dashboard />
+      },
+      {
+        path: "admin/analytics",
+        element: <Analytics />
       }
     ]
   },

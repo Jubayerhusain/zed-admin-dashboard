@@ -11,7 +11,7 @@ export default function PropertiesMap() {
   ];
 
   return (
-    <div className="bg-gray-50 sm:min-h-screen mt-8">
+    <div className="bg-gray-50 mt-8">
       <div className=" bg-white rounded-xl shadow-sm  p-6">
         <div className="w-12/12 flex flex-col md:flex-row gap-6">
           {/* Left Side */}

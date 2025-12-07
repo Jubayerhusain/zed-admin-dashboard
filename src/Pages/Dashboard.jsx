@@ -3,7 +3,7 @@ import Hero from "../Componets/dashboard/Hero";
 import DashboardMetrics from "../Componets/dashboard/TargetMetricCard";
 import DashboardCharts from "./../Componets/dashboard/DashboardCharts";
 import Stats from "../Componets/dashboard/Stats";
-import PropertiesMap from "../Componets/dashboard/PropertiesMap";
+import PropertiesMap from "../Componets/shared/PropertiesMap";
 import ReviewAndProperty from "../Componets/dashboard/ReviewAndProperty";
 
 const Dashboard = () => {

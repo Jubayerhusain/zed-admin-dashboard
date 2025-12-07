@@ -8,7 +8,7 @@ import PropertiesMap from "../Componets/shared/PropertiesMap";
 
 function Breadcrumb() {
   return (
-    <div className="flex items-center gap-2 text-sm mb-8">
+    <div className="flex items-center gap-2 text-sm mb-8 bg-white px-6 py-4 rounded-lg shadow-sm">
       <span className="text-gray-600">Property</span>
       <span className="text-gray-400">/</span>
       <span className="text-green-500 font-medium">Analytics</span>
@@ -18,7 +18,7 @@ function Breadcrumb() {
 
 export default function Analytics() {
   return (
-    <div className="bg-gray-50 min-h-screen p-4 md:p-8 ">
+    <div className="bg-gray-50 min-h-screen p-4  ">
       <div className="">
         <Breadcrumb />
 

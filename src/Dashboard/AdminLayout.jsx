@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import {
-  Search,
-  ChevronDown,
-  Menu,
-} from "lucide-react";
+import { Search, ChevronDown, Menu } from "lucide-react";
 import { MdDashboard } from "react-icons/md";
 import { PiUserCircleDuotone } from "react-icons/pi";
 import { PiBuildingOffice } from "react-icons/pi";
@@ -12,7 +8,25 @@ import { AiOutlineMessage } from "react-icons/ai";
 import { IoMdNotificationsOutline } from "react-icons/io";
 
 import logo from "../assets/logo.png";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
+
+const SubNavLink = ({ to, children }) => {
+  const location = useLocation();
+  const isActive = location.pathname === to;
+
+  return (
+    <Link
+      to={to}
+      className={`block px-3 py-2 rounded-lg transition-colors ${
+        isActive
+          ? "bg-gradient-to-r from-green-400 to-lime-200 text-gray-800 font-medium"
+          : "text-gray-600 hover:bg-gray-100"
+      }`}
+    >
+      {children}
+    </Link>
+  );
+};
 
 const NavItem = ({
   icon: Icon,
@@ -22,7 +36,8 @@ const NavItem = ({
   isDrawerOpen,
   children,
 }) => {
-  const isActive = window.location.pathname.includes(
+  const location = useLocation();
+  const isActive = location.pathname.includes(
     title.toLowerCase().replace(" ", "")
   );
 
@@ -123,7 +138,7 @@ const AdminLayout = () => {
             <button className="p-2 bg-[#F3F3F5] hover:bg-gray-100 rounded-[12px]">
               <AiOutlineMessage />
             </button>
-            <button className="p-2 bg-[#F3F3F5]  hover:bg-gray-100 rounded-[12px]">
+            <button className="p-2 bg-[#F3F3F5]  hover:bg-gray-100 rounded-[12px]">
               <IoMdNotificationsOutline />
             </button>
           </div>
@@ -149,36 +164,11 @@ const AdminLayout = () => {
               isOpen={openMenus.dashboard}
               isDrawerOpen={isDrawerOpen}
             >
-              <Link
-                to={"/"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
-                Dashboard
-              </Link>
-              <Link
-                to={"/admin/analytics"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
-                Analytics
-              </Link>
-              <Link
-                to={"/admin/review"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
-                Review
-              </Link>
-              <Link
-                to={"/admin/order-list"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
-                Order List
-              </Link>
-              <Link
-                to={"/admin/customer"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
-                Customer
-              </Link>
+              <SubNavLink to="/">Dashboard</SubNavLink>
+              <SubNavLink to="/admin/analytics">Analytics</SubNavLink>
+              <SubNavLink to="/admin/review">Review</SubNavLink>
+              <SubNavLink to="/admin/order-list">Order List</SubNavLink>
+              <SubNavLink to="/admin/customer">Customer</SubNavLink>
             </NavItem>
 
             {/* Agent sub navigation */}
@@ -189,30 +179,12 @@ const AdminLayout = () => {
               isOpen={openMenus.agent}
               isDrawerOpen={isDrawerOpen}
             >
-              <Link
-                to={"/admin/agent/analytics"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
-                Analytics
-              </Link>
-              <Link
-                to={"/admin/agent/add-agent"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
-                Add Agent
-              </Link>
-              <Link
-                to={"/admin/agent/all-agents"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
-                All Agents
-              </Link>
-              <Link
-                to={"/admin/agent/agent-profile"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
+              <SubNavLink to="/admin/agent/analytics">Analytics</SubNavLink>
+              <SubNavLink to="/admin/agent/add-agent">Add Agent</SubNavLink>
+              <SubNavLink to="/admin/agent/all-agents">All Agents</SubNavLink>
+              <SubNavLink to="/admin/agent/agent-profile">
                 Agent Profile
-              </Link>
+              </SubNavLink>
             </NavItem>
 
             {/* Property sub navigation */}
@@ -223,40 +195,26 @@ const AdminLayout = () => {
               isOpen={openMenus.property}
               isDrawerOpen={isDrawerOpen}
             >
-              <Link
-                to={"/admin/property/add-property"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
+              <SubNavLink to="/admin/property/add-property">
                 Add Property
-              </Link>
-              <Link
-                to={"/admin/property/property-list"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
+              </SubNavLink>
+              <SubNavLink to="/admin/property/property-list">
                 Property List
-              </Link>
-              <Link
-                to={"/admin/property/property-details"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
+              </SubNavLink>
+              <SubNavLink to="/admin/property/property-details">
                 Property Details
-              </Link>
+              </SubNavLink>
             </NavItem>
 
             {/* Settings */}
             <NavItem
               icon={IoSettingsOutline}
               title="Settings"
-              onClick={() => toggleMenu("dashboard")}
-              isOpen={openMenus.dashboard}
+              onClick={() => toggleMenu("settings")}
+              isOpen={openMenus.settings}
               isDrawerOpen={isDrawerOpen}
             >
-              <Link
-                to={"/settings"}
-                className="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-              >
-                Settings
-              </Link>
+              <SubNavLink to="/settings">Settings</SubNavLink>
             </NavItem>
           </nav>
         </aside>

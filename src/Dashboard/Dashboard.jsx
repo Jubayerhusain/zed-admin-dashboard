@@ -16,7 +16,7 @@ import LoginDetails from "../Componets/LoginDetails";
 import UploadFiles from "../Componets/UploadFiles";
 import logo from "../assets/logo.png";
 
-const Dashboard = () => {
+const Dashboard11 = () => {
 
   const [currentStep, setCurrentStep] = useState(1);
   const [isDrawerOpen, setIsDrawerOpen] = useState(true);
@@ -386,4 +386,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Dashboard11;

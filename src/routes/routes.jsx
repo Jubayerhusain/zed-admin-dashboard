@@ -1,10 +1,17 @@
 import { createBrowserRouter } from "react-router-dom";
-import Dashboard from "../Dashboard/Dashboard";
+import AdminLayout from "../Dashboard/AdminLayout";
+import Dashboard from "../Pages/Dashboard";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Dashboard></Dashboard>,
+    element: <AdminLayout />,
+    children: [
+      {
+        index: true,
+        element: <Dashboard />
+      }
+    ]
   },
 ]);
 

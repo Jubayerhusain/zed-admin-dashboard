@@ -5,6 +5,7 @@ import Analytics from "../Pages/Analytics";
 import Review from "../Pages/Review";
 import OrderList from "../Pages/OrderList";
 import Customer from "../Pages/Customer";
+import Agent from "../Pages/Agent";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,12 @@ const router = createBrowserRouter([
       {
         path: "admin/customer",
         element: <Customer />,
+      },
+
+      // Agent Route
+      {
+        path: "admin/add-agent",
+        element: <Agent />,
       },
     ],
   },

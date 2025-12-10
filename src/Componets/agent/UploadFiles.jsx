@@ -25,14 +25,14 @@ const UploadFiles = ({ onPrev, onSubmit }) => {
           onDragLeave={handleDrag}
           onDragOver={handleDrag}
           className={`border-2 border-dashed rounded-lg p-12 text-center transition ${
-            dragActive ? 'border-green-500 bg-green-50' : 'border-gray-300'
+            dragActive ? "border-green-500 bg-green-50" : "border-gray-300"
           }`}
         >
           <Upload className="mx-auto mb-4 text-gray-400" size={48} />
           <p className="text-gray-600 mb-2">
             <span className="text-green-500 font-medium cursor-pointer hover:underline">
               Click to upload
-            </span>{' '}
+            </span>{" "}
             or drag and drop
           </p>
           <p className="text-sm text-gray-500">
@@ -50,7 +50,7 @@ const UploadFiles = ({ onPrev, onSubmit }) => {
         </button>
         <button
           onClick={onSubmit}
-          className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition flex items-center gap-2"
+          className="px-6 py-2 bg-gradient-to-b from-green-500 to-lime-400 text-white rounded-lg hover:bg-green-600 transition flex items-center gap-2"
         >
           Submit <ChevronRight size={18} />
         </button>

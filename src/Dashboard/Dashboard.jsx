@@ -11,9 +11,9 @@ import {
   Menu,
   X,
 } from "lucide-react";
-import AccountInfo from "../Componets/AccountInfo";
-import LoginDetails from "../Componets/LoginDetails";
-import UploadFiles from "../Componets/UploadFiles";
+import AccountInfo from "../Componets/agent/AccountInfo";
+import LoginDetails from "../Componets/agent/LoginDetails";
+import UploadFiles from "../Componets/agent/UploadFiles";
 import logo from "../assets/logo.png";
 
 const Dashboard11 = () => {

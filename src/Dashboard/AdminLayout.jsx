@@ -179,12 +179,9 @@ const AdminLayout = () => {
               isOpen={openMenus.agent}
               isDrawerOpen={isDrawerOpen}
             >
-              <SubNavLink to="/admin/agent/analytics">Analytics</SubNavLink>
-              <SubNavLink to="/admin/agent/add-agent">Add Agent</SubNavLink>
-              <SubNavLink to="/admin/agent/all-agents">All Agents</SubNavLink>
-              <SubNavLink to="/admin/agent/agent-profile">
-                Agent Profile
-              </SubNavLink>
+              <SubNavLink to="/admin/add-agent">Add Agent</SubNavLink>
+              <SubNavLink to="/admin/all-agents">All Agents</SubNavLink>
+              <SubNavLink to="/admin/agent-profile">Agent Profile</SubNavLink>
             </NavItem>
 
             {/* Property sub navigation */}

@@ -119,7 +119,7 @@ const LoginDetails = ({ formData, setFormData, onNext, onPrev }) => {
         </button>
         <button
           onClick={onNext}
-          className="px-8 py-3 bg-green-600 text-white font-bold rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50 transition duration-150 ease-in-out flex items-center gap-2"
+          className="px-8 py-3 bg-gradient-to-b from-green-500 to-lime-400 text-white font-bold rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50 transition duration-150 ease-in-out flex items-center gap-2"
         >
           Next <ChevronRight size={18} />
         </button>

@@ -6,6 +6,8 @@ import Review from "../Pages/Review";
 import OrderList from "../Pages/OrderList";
 import Customer from "../Pages/Customer";
 import Agent from "../Pages/Agent";
+import AllAgents from "../Pages/AllAgents";
+import AgentProfile from "../Pages/AgentProfile";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
         path: "admin/add-agent",
         element: <Agent />,
       },
+      {
+        path: "admin/all-agents",
+        element: <AllAgents />,
+      },
+      {
+        path: "admin/agent-profile",
+        element: <AgentProfile />,
+      }
     ],
   },
 ]);

@@ -35,7 +35,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Pembroke Pines",
       type: "House",
@@ -51,7 +52,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Pembroke Pines",
       type: "House",
@@ -67,7 +69,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Pembroke Pines",
       type: "Villa",
@@ -83,7 +86,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Miami",
       type: "Apartment",
@@ -99,7 +103,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Orlando",
       type: "House",
@@ -115,7 +120,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Tampa",
       type: "Villa",
@@ -131,7 +137,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Miami Beach",
       type: "Villa",
@@ -147,7 +154,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Orlando",
       type: "Apartment",
@@ -163,7 +171,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Tampa",
       type: "House",
@@ -179,7 +188,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Fort Lauderdale",
       type: "Apartment",
@@ -195,7 +205,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Jacksonville",
       type: "House",
@@ -211,7 +222,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       location: "Miami",
       type: "Apartment",
     },
@@ -226,7 +238,8 @@ export default function PropertyListing() {
       image:
         "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
       agent: "Emilia Sigh",
-      agentPhoto:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+      agentPhoto:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
       status: "For sale",
       location: "Sarasota",
       type: "House",
@@ -320,14 +333,13 @@ export default function PropertyListing() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
+      <div className="flex items-center gap-2 text-xs sm:text-sm mx-4 mb-3 sm:mb-4 p-5 bg-white rounded-lg shadow">
+        <span className="text-gray-600">Property</span>
+        <span className="text-gray-400">/</span>
+        <span className="text-green-600 font-medium">Property List</span>
+      </div>
       <div className="bg-white border-b rounded-lg m-4">
         <div className=" px-3 p-5">
-          <div className="flex items-center gap-2 text-xs sm:text-sm mb-3 sm:mb-4">
-            <span className="text-gray-600">Property</span>
-            <span className="text-gray-400">/</span>
-            <span className="text-green-600 font-medium">Property List</span>
-          </div>
-
           {/* Filter Toggle */}
           <button
             onClick={() => setShowFilters(!showFilters)}
@@ -747,7 +759,11 @@ export default function PropertyListing() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <div className="w-9 h-9 bg-orange-100 rounded-full flex items-center justify-center">
-                          <img className="rounded-full w-full h-full object-cover" src={property.agentPhoto} alt="" />
+                          <img
+                            className="rounded-full w-full h-full object-cover"
+                            src={property.agentPhoto}
+                            alt=""
+                          />
                         </div>
                         <span className="text-sm font-medium text-gray-700">
                           {property.agent}

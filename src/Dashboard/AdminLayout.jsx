@@ -192,13 +192,13 @@ const AdminLayout = () => {
               isOpen={openMenus.property}
               isDrawerOpen={isDrawerOpen}
             >
-              <SubNavLink to="/admin/property/add-property">
+              <SubNavLink to="/admin/add-property">
                 Add Property
               </SubNavLink>
-              <SubNavLink to="/admin/property/property-list">
+              <SubNavLink to="/admin/property-list">
                 Property List
               </SubNavLink>
-              <SubNavLink to="/admin/property/property-details">
+              <SubNavLink to="/admin/property-details">
                 Property Details
               </SubNavLink>
             </NavItem>

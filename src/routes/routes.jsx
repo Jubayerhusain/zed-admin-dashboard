@@ -8,6 +8,7 @@ import Customer from "../Pages/Customer";
 import Agent from "../Pages/Agent";
 import AllAgents from "../Pages/AllAgents";
 import AgentProfile from "../Pages/AgentProfile";
+import AddProperty from "../Pages/AddProperty";
 
 const router = createBrowserRouter([
   {
@@ -47,7 +48,13 @@ const router = createBrowserRouter([
       {
         path: "admin/agent-profile",
         element: <AgentProfile />,
-      }
+      },
+
+      // Add Property Route
+      {
+        path: "admin/add-property",
+        element: <AddProperty />,
+      },
     ],
   },
 ]);

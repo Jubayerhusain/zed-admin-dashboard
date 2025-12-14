@@ -4,7 +4,7 @@ import PropertySidebar from "../Componets/propertyDetails/PropertySidebar";
 
 const PropertyDetails = () => {
   return (
-    <div className=" bg-gray-100 min-h-screen p-4 ">
+    <div className=" sm:bg-gray-100 min-h-screen sm:p-4 ">
       <div>
         <div className="bg-white p-5 rounded-lg shadow">
           <p>

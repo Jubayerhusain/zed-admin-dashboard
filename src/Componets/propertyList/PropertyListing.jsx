@@ -333,12 +333,12 @@ export default function PropertyListing() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <div className="flex items-center gap-2 text-xs sm:text-sm mx-4 mb-3 sm:mb-4 p-5 bg-white rounded-lg shadow">
+      <div className="flex items-center gap-2 text-xs sm:text-sm sm:mx-4 mb-3 sm:mb-4 p-5 bg-white rounded-lg shadow">
         <span className="text-gray-600">Property</span>
         <span className="text-gray-400">/</span>
         <span className="text-green-600 font-medium">Property List</span>
       </div>
-      <div className="bg-white border-b rounded-lg m-4">
+      <div className="bg-white border-b rounded-lg sm:m-4">
         <div className=" px-3 p-5">
           {/* Filter Toggle */}
           <button
@@ -620,7 +620,7 @@ export default function PropertyListing() {
       </div>
 
       {/* Main Content */}
-      <div className="p-4">
+      <div className="sm:p-4">
         {/* Results Header */}
         <div className="bg-white p-4 rounded-lg flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 mb-6">
           <p className="text-sm sm:text-base text-gray-700">

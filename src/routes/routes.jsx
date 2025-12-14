@@ -10,6 +10,7 @@ import AllAgents from "../Pages/AllAgents";
 import AgentProfile from "../Pages/AgentProfile";
 import AddProperty from "../Pages/AddProperty";
 import PropertyList from "../Pages/PropertyList";
+import PropertyDetails from "../Pages/PropertyDetails";
 
 const router = createBrowserRouter([
   {
@@ -51,7 +52,7 @@ const router = createBrowserRouter([
         element: <AgentProfile />,
       },
 
-      // Add Property Route
+      // Property Route
       {
         path: "admin/add-property",
         element: <AddProperty />,
@@ -59,7 +60,15 @@ const router = createBrowserRouter([
       {
         path: "admin/property-list",
         element: <PropertyList />,
+      },
+      {
+        path: "admin/property-details",
+        element: <PropertyDetails />,
       }
+
+
+
+
     ],
   },
 ]);

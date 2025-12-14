@@ -62,7 +62,7 @@ export default function SinglePropertyDetail() {
             />
             
             {/* Image Label */}
-            <div className="absolute top-6 left-6 bg-black/70 text-white rounded-lg p-4">
+            <div className="absolute top-4 sm:top-6 left-0 sm:left-6 bg-black/70 text-white rounded-lg p-4">
               <div className="font-semibold text-sm sm:text-base">Front View</div>
               <div className="text-xs sm:text-sm opacity-90 mt-1 max-w-xs sm:max-w-md">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
